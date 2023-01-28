@@ -1,0 +1,85 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    font-family: inter;
+ }
+
+ /* body{
+    overflow-x: hidden;
+ } */
+
+.home_lines{
+    position: absolute;
+}
+
+.navbar_logo{
+    max-width:70%;
+    height: auto;
+}
+
+.nav_border{
+    width: 100%;
+    height: 7px;
+    background: rgba(122, 1, 88, 0.5);
+    border-radius: 10px;
+}
+
+.my_navbar_nav{
+    padding-right: 88px !important;
+}
+
+.my_nav_link{
+    color: #222222 !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero_div{
+    margin-top: 20%;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.hero h1{
+    font-size: 60px;
+    color: #9C0572;
+}
+
+.hero p{
+    font-weight: 600;
+    font-size: 22px;
+    color: #222222;
+}
+
+.hero a{
+    background: #9C0572;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.business{
+    padding-top: 103px;
+    margin-left: 50px;
+}
+
+.business h1{
+    font-size: 40px;
+    color: #222222;
+}
+
+.business p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #222222;
+}
